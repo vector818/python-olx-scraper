@@ -38,7 +38,6 @@ def przetwarzaj_strone(url):
                 
                 # Pobierz treść ogłoszenia
                 tresc_ogloszenia = pobierz_tresc_ogloszenia(url_ogloszenia)
-                #print(f'Treść ogłoszenia: {tresc_ogloszenia}\n')
                 
                 # Dodaj dane do listy
                 data.append({'Title': title, 'Treść ogłoszenia': tresc_ogloszenia, 'Cena': cena})
